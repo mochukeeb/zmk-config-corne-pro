@@ -1,0 +1,14 @@
+file_format: "1"
+id: corne_pro
+name: MochuKeeb Corne Pro
+type: shield
+url: https://github.com/mochukeeb/zmk-config-corne-pro
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - studio
+siblings:
+  - corne_pro_left
+  - corne_pro_right
